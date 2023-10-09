@@ -7,12 +7,13 @@ import "./Header.css";
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
-      <SubHeading title="Chase the new flavour" />
-      <h1 className="app__header-h1">The Key To Fine Dining</h1>
+      <SubHeading title="Change the trend" />
+      <h1 className="app__header-h1">SnapDine</h1>
+      <h2 className="app__header-h2">"Where Menus Meet Innovation"</h2>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat
-        morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
-        tellus{" "}
+        SnapDine is on a mission to transform the restaurant experience through
+        cutting-edge technology. Our journey began with a simple idea: to
+        provide an elegant and hassle-free way for diners to explore menus.{" "}
       </p>
       <button type="button" className="custom__button">
         Explore Menu

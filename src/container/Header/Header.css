@@ -12,6 +12,17 @@
   font-size: 90px;
 }
 
+.app__header-h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 80px;
+  font-size: 40px;
+  padding-left: 40px;
+}
+
 .app__header-img img {
   width: 80%;
 }
@@ -21,11 +32,18 @@
     font-size: 180px;
     line-height: 210px;
   }
+  .app__header-h2 {
+    font-size: 40px;
+    line-height: 80px;
+  }
 }
 
 @media screen and (max-width: 1150px) {
   .app__header-h1 {
     font-size: 90px;
+  }
+  .app__header-h2 {
+    font-size: 30px;
   }
 }
 
@@ -34,11 +52,21 @@
     font-size: 70px;
     line-height: 87px;
   }
+  .app__header-h2 {
+    font-size: 30px;
+    line-height: 47px;
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .app__header-h1 {
     font-size: 50px;
     line-height: 70px;
+  }
+  .app__header-h2 {
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 0px;
   }
 }
