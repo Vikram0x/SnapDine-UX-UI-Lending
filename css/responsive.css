@@ -1,151 +1,107 @@
-/*--------------------------------------------------------------------- 
-File Name: responsive.css 
----------------------------------------------------------------------*/
+@media (max-width: 1300px) {}
 
-@media (min-width: 1200px) and (max-width: 1320px) {}
+@media (max-width: 1120px) {}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .banner_main {
-        margin: 0 151px;
-    }
-    .club_btn .read_more {
-        max-width: 296px;
-    }
-    .poa_t {
-        padding: 0 30px;
-    }
-    .menu_bottom li {
-        padding: 0 26px;
-    }
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .hero_area {
+    background: linear-gradient(130deg, #231a6f, #0f054c);
+  }
+
+  .hero_area .hero_bg_box {
+    display: none;
+  }
+
+  .slider_section {
+    padding: 45px 0 75px 0;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .banner_main {
-        margin: 0 151px;
-    }
-    .poa_t {
-        padding: 0 30px;
-    }
-    .footbol {
-        margin-top: -126px;
-    }
-    .club figure img {
-        height: 354px;
-    }
-    .club_btn .read_more {
-        max-width: 220px;
-    }
-    .conta ul li {
-        padding-right: 25px;
-    }
-    .conta ul li a img {
-        padding-right: 5px;
-    }
-    .menu_bottom li {
-        padding: 0 11px;
-    }
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    header {
-        position: inherit;
-        background: #fff;
-    }
-    .banner_main {
-        margin: 0;
-    }
-    .sm_n0 {
-        display: none;
-    }
-    .tes_n0 {
-        display: inherit;
-    }
-    .poa_t {
-        padding: 0 30px;
-    }
-    .sports_main {
-        margin-bottom: 30px;
-    }
-    .club_btn .read_more {
-        max-width: 174px;
-        height: 64px;
-        line-height: 64px;
-        margin: 0 4px;
-    }
-    .menu_bottom li {
-        padding: 0 16px;
-    }
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
 }
 
-@media (max-width: 575px) {
-    header {
-        position: inherit;
-        background: #fff;
-    }
-    .d_none {
-        display: none !important;
-    }
-    .email {
-        padding-top: 0 !important;
-        margin-top: -44px;
-    }
-    .logo {
-        display: block;
-        width: 144px;
-        float: left;
-    }
-    .banner_main {
-        margin: 0;
-    }
-    .sm_n0 {
-        display: none;
-    }
-    .tes_n0 {
-        display: inherit;
-    }
-    .poa_t {
-        padding: 0 30px;
-        top: 58px;
-    }
-    .club h1 {
-        font-size: 37px;
-    }
-    .sports_main {
-        margin-bottom: 30px;
-    }
-    .club figure img {
-        height: 276px;
-    }
-    .footbol {
-        margin-top: -33px;
-    }
-    .dorder {
-        border: #1f1d45 solid 10px;
-    }
-    .foot_img {
-        max-width: 260px;
-        padding: 23px 0 9px 0;
-    }
-    .abo_btn a img {
-        width: 100px;
-    }
-    .titlepage h2 {
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .club_btn .read_more {
-        margin-top: 5px;
-    }
-    .footer {
-        background: #070808;
-    }
-    .conta {
-        text-align: left;
-    }
-    .menu_bottom li {
-        padding: 0px 3px;
-    }
-    .menu_bottom ul li a {
-        font-size: 14px;
-    }
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 376px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
 }
